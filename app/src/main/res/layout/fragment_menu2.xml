@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:strokeWidth="5dp"
+    app:strokeColor="@color/abu"
+    app:cardElevation="5dp"
+    android:id="@+id/fragment_menu2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.menu.FragmentMenu2">
+
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+
+        >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="200dp"
+
+                >
+
+                <androidx.recyclerview.widget.RecyclerView
+
+                    android:id="@+id/rvtransform"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:listitem="@layout/list_transform" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    >
+                    <com.google.android.material.floatingactionbutton.FloatingActionButton
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="20dp"
+                        android:id="@+id/prev"
+                        app:backgroundTint="@color/abu"
+                        app:fabSize="mini"
+                        android:src="@drawable/ic_baseline_navigate_before_24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|end"
+
+                        />
+
+
+
+                    <com.google.android.material.floatingactionbutton.FloatingActionButton
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+
+                        android:id="@+id/next"
+                        app:backgroundTint="@color/abu"
+                        app:fabSize="mini"
+                        android:src="@drawable/ic_baseline_navigate_next_24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|end"
+
+                        />
+
+
+                </RelativeLayout>
+
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+
+                    />
+
+            </LinearLayout>
+
+
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

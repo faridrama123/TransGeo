@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:layout_margin="10dp"
+
+    android:id="@+id/fragment_menu1"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ui.menu.TentangFragment"
+    app:cardCornerRadius="20dp"
+    app:strokeWidth="5dp"
+    app:strokeColor="@color/abu"
+    app:cardElevation="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+   <LinearLayout
+       android:layout_margin="10dp"
+
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+
+       >
+
+       <RelativeLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+
+           >
+
+           <ImageView
+               android:id="@+id/star"
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:background="@drawable/ic_baseline_star_24"
+               >
+           </ImageView>
+
+           <TextView
+               android:maxLines="1"
+               android:paddingLeft="10dp"
+               android:layout_centerVertical="true"
+               android:layout_toEndOf="@+id/star"
+               android:gravity="center_vertical"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textColor="@color/black"
+               android:textStyle="bold"
+               android:id="@+id/title"
+               android:textSize="24sp"
+               android:text="@string/title"
+               >
+
+           </TextView>
+
+       </RelativeLayout>
+
+
+       <RelativeLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           >
+           <TextView
+
+               android:justificationMode="inter_word"
+               android:textSize="14sp"
+               android:id="@+id/tableofcontent"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/tentang"
+               >
+           </TextView>
+       </RelativeLayout>
+
+       <RelativeLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           >
+
+           <TextView
+               android:layout_margin="10dp"
+               android:layout_alignParentRight="true"
+               android:id="@+id/close"
+               android:textSize="16sp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textColor="@color/black"
+               android:text="@string/close"
+               />
+
+       </RelativeLayout>
+   </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">TransGeo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment 121 werw wrfwer y43t 3wrw 2345r  </string>
+
+    <string name="title">TENTANG</string>
+    <string name="tentang">
+        Program ini dibuat dan dikembangkan oleh tim PKM
+        Universitas Muhammadiyah Malang, dengan judul :\n
+        <br />
+         Ketua :\n
+        Sahrul Ramadhan\n
+         <i> “Eksplorasi relational thinking skill dalam penyelesaian masalah transformasi
+        geometri virtual melalui aplikasi berbasis android”\n\n  </i>Anggota :\n
+        1.	Malika Kautsar Ilmi\n
+        2.	Sofyan Kurnianto\n
+        3.	Rizky Indrabayu\n
+        4.	Devi Nurtria Sandy\n\n
+        Dosen Pendamping :\n
+        Siti Khoiruli Ummah, M.Pd\n
+    </string>
+
+    <string name="content_specs_display">5.0 inches\n
+    FHD AMOLED at 441ppi\n
+    2.5D Corning® Gorilla® Glass 4</string>
+
+    <string name="bantuan"></string>
+    <string name="kompentensidasar"></string>
+    <string name="close">close</string>
+
+
+</resources>
